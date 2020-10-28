@@ -1,6 +1,7 @@
 backend:
-  name: git-gateway
-  branch: master # Branch to update (optional; defaults to master)
+  name: github
+  repo: bodrovis/hugo_sample
+  open_authoring: true
 media_folder: static/img
 public_folder: /img
 collections:
